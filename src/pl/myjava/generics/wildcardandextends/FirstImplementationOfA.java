@@ -1,5 +1,5 @@
 package pl.myjava.generics.wildcardandextends;
 
-public class FirstImplementationOfA {
+public class FirstImplementationOfA implements InterfaceA {
 
 }

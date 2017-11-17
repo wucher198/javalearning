@@ -1,6 +1,6 @@
 package pl.myjava.generics.wildcardandextends;
 
-public class AbstractImplementationOfGenericInterface<T> implements GenericInterface<T> {
+public class AbstractImplementationOfGenericInterface<T extends InterfaceA> implements GenericInterface<T> {
 
 	@Override
 	public T method(T input) {
